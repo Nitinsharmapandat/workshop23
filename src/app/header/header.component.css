@@ -1,0 +1,35 @@
+.Nav{
+    display: flex;
+    background: white;
+    color: black;
+    margin-bottom: .5rem;
+    align-items: center;
+}
+
+.Nav ul{
+    display: flex;
+    list-style: none;
+    font-size: medium;
+}
+
+.Nav ul>*{
+    padding: 0 1.5em;
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
+.Nav ul{
+    height: 100%;
+}
+
+.Nav ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Nav ul li:hover{
+    background: #00a0f0;
+    color: white;
+}
